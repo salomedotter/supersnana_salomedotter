@@ -1,0 +1,329 @@
+.forme-png {
+  margin-top: -17%;
+  margin-left: 12%;
+  width: auto;
+  height: 85%;
+}
+
+.name {
+  /* position: sticky; */
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-family: "Cherish", cursive;
+  font-family: "Fugaz One", cursive;
+  letter-spacing: -7px;
+  -webkit-text-stroke: 4px rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  text-align: center;
+
+  margin-block-start: auto;
+}
+
+/* REBELLE PAGE */
+#rebelleN {
+  color: rgb(36, 255, 102);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+section {
+  will-change: transform;
+  transition: 0.5s ease transform;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*
+#rebH {
+   top:50%;
+  width: auto;
+  height:85%;
+  margin-top:-20% 
+
+  margin-top: -10%;
+  width: auto;
+}*/
+
+.rebH {
+  margin-top: -2%;
+  width: auto;
+
+  display: absolute;
+  /* align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  */
+}
+
+.daz {
+  height: 80%;
+  width:20%;
+}
+#d-belle {
+position:absolute;
+  top:5%;
+  left:5%;
+
+}
+
+#d-bulle {
+  position:absolute;
+    top:24%;
+    left:40%;
+    z-index: -1;
+  
+  }
+
+  #d-reb {
+    position:absolute;
+      top:5%;
+      left:75%;
+      z-index: -1;
+    
+    }
+
+    .daz-big {
+      height:120%;
+      width:40%;
+
+
+    }
+
+    #d-big-bu {
+      position:absolute;
+      top:35%;
+      left:-10%;
+      z-index: -1;
+
+    }
+
+/* BULLE PAGE */
+
+.bullepage{
+  width: 100px;
+  height: 120px;
+  top:50%;
+  left:50%;
+  position:fixed;
+  transform: translate3d(-50%, -50%, 0);
+  cursor: pointer; 
+  pointer-events: auto; 
+}
+
+#bulleN {
+  color: rgb(133, 184, 241);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+
+  /* margin-top: 2%;
+  text-align: center; 
+  margin-bottom: 0;
+  height: 30%; */
+}
+
+@keyframes hover {
+  0% {
+  }
+  100% {
+  }
+}
+
+#alls {
+  animation-name: hover;
+  animation-duration: 1ms;
+  animation-fill-mode: backwards;
+  animation-play-state: paused;
+}
+
+.toutblue {
+  margin-top: -10%;
+  /* top:10%;
+  left:2rem; 
+  height:150%;*/
+  width: auto;
+}
+
+.toutblue #bulle_1,
+.toutblue #bulle_2,
+.toutblue #bulle_3,
+.toutblue #bulle_4,
+.toutblue #bulle_5,
+.toutblue #bulle_6,
+.toutblue #bulle_7,
+.toutblue #bulle_8,
+.toutblue #bulle_9,
+.toutblue #bulle_10,
+.toutblue #bulle_11,
+.toutblue #bulle_12,
+.toutblue #bulle_13,
+.toutblue #bulle_14,
+.toutblue #bulle_15,
+.toutblue #bulle_16,
+.toutblue #bulle_17 {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+  overflow: hidden;
+  transform-origin: center center; /* here */
+}
+.toutblue:hover #bulle1,
+.toutblue:hover #bulle_2 {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.toutblue:hover #bulle_3 {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+.toutblue:hover #bulle_4 {
+  -webkit-transform: rotate(-400deg);
+  -moz-transform: rotate(-400deg);
+  -o-transform: rotate(-400deg);
+  transform: rotate(-400deg);
+}
+
+.toutblue:hover #bulle_5 {
+  -webkit-transform: rotate(-420deg);
+  -moz-transform: rotate(-420deg);
+  -o-transform: rotate(-420deg);
+  transform: rotate(-420deg);
+}
+
+.toutblue:hover #bulle_6 {
+  -webkit-transform: rotate(-430deg);
+  -moz-transform: rotate(-430deg);
+  -o-transform: rotate(-430deg);
+  transform: rotate(-430deg);
+}
+
+.toutblue:hover #bulle_7 {
+  -webkit-transform: rotate(-420deg);
+  -moz-transform: rotate(-420deg);
+  -o-transform: rotate(-420deg);
+  transform: rotate(-420deg);
+}
+
+.toutblue:hover #bulle_8 {
+  -webkit-transform: rotate(-400deg);
+  -moz-transform: rotate(-400deg);
+  -o-transform: rotate(-400deg);
+  transform: rotate(-400deg);
+}
+
+.toutblue:hover #bulle_9 {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+.toutblue:hover #bulle_10 {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+.toutblue:hover #bulle_11 {
+  -webkit-transform: rotate(-400deg);
+  -moz-transform: rotate(-400deg);
+  -o-transform: rotate(-400deg);
+  transform: rotate(-400deg);
+}
+
+.toutblue:hover #bulle_12 {
+  -webkit-transform: rotate(-420deg);
+  -moz-transform: rotate(-420deg);
+  -o-transform: rotate(-420deg);
+  transform: rotate(-420deg);
+}
+
+.toutblue:hover #bulle_13 {
+  -webkit-transform: rotate(-430deg);
+  -moz-transform: rotate(-430deg);
+  -o-transform: rotate(-430deg);
+  transform: rotate(-430deg);
+}
+
+.toutblue:hover #bulle_14 {
+  -webkit-transform: rotate(-420deg);
+  -moz-transform: rotate(-420deg);
+  -o-transform: rotate(-420deg);
+  transform: rotate(-420deg);
+}
+
+.toutblue:hover #bulle_15 {
+  -webkit-transform: rotate(-400deg);
+  -moz-transform: rotate(-400deg);
+  -o-transform: rotate(-400deg);
+  transform: rotate(-400deg);
+}
+
+.toutblue:hover #bulle_16 {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+.toutblue:hover #bulle_17 {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+
+/* BELLE PAGE */
+
+#belleN {
+  color: rgb(255, 32, 188);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+
+  /* margin: 2rem; */
+}
+
+#moving-typo {
+  font-family: "Cherish", cursive;
+  font-family: "Fugaz One", cursive;
+  font-size: 2rem;
+  fill: rgb(255, 178, 201);
+  letter-spacing: normal;
+}
+
+#moving-typo2 {
+  font-family: "Cherish", cursive;
+  font-family: "Fugaz One", cursive;
+  font-size: 3rem;
+  fill: rgb(255, 252, 253);
+  letter-spacing: normal;
+  /* text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff; */
+}
+
+.moving-typo3 {
+  font-family: "Cherish", cursive;
+  font-family: "Fugaz One", cursive;
+  font-size: 1rem;
+  fill: rgb(255, 255, 255);
+  letter-spacing: normal;
+  /* text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff; */
+}
+
+#tout {
+  /* width: auto;
+  height:85%; */
+  margin-top: -40%;
+  transform:scale(0.65,0.65)
+}

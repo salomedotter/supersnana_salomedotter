@@ -1,0 +1,575 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  /*  */
+   background: linear-gradient(-50deg,#2bff59,#8fd1fd, #ff46ac);  
+  /* background: linear-gradient(-50deg,#ffffff,#105888, #a3c6fa);  */
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* coeur menue */
+#cls-0 {
+  fill: #fa5268;
+  z-index: 10;
+}
+
+#cls-1 {
+  fill: #e71a36;
+}
+
+#cls-2 {
+  fill: #f99595;
+}
+
+#cls-3 {
+  fill: #ffcccc;
+}
+
+#cls-4 {
+  fill: #ffa1be;
+}
+
+#cls-5 {
+  fill: #ff465e;
+}
+#cls-6 {
+  fill: #ff4646;
+}
+
+#cls-7 {
+  fill: #f99595;
+}
+
+#cls-8 {
+  fill: #ffcccc;
+}
+
+#cls-9 {
+  fill: #ffa1be;
+}
+
+#cls-10 {
+  fill: #ff465e;
+}
+#cls-11 {
+  fill: #ff4646;
+}
+
+#cls-12 {
+  fill: #f99595;
+}
+
+#cls-13 {
+  fill: #ffcccc;
+}
+
+#cls-14 {
+  fill: #ffa1be;
+}
+
+#cls-15 {
+  fill: #ff465e;
+}
+#cls-16 {
+  fill: #ff4646;
+}
+
+#cls-17 {
+  fill: #f99595;
+}
+
+#cls-18 {
+  fill: #ffcccc;
+}
+
+#cls-19 {
+  fill: #ffa1be;
+}
+
+#cls-20 {
+  fill: #ff465e;
+}
+#cls-21 {
+  fill: #ff4646;
+}
+
+#cls-22 {
+  fill: #f99595;
+}
+
+#cls-23 {
+  fill: #ffcccc;
+}
+
+#cls-24 {
+  fill: #ffa1be;
+}
+
+#cls-25 {
+  fill: #ff465e;
+}
+#cls-26 {
+  fill: #ff4646;
+}
+
+#cls-27 {
+  fill: #f99595;
+}
+
+#cls-28 {
+  fill: #ffcccc;
+}
+
+#cls-29 {
+  fill: #ffa1be;
+}
+
+#cls-30 {
+  fill: #ff465e;
+}
+#cls-31 {
+  fill: #ff4646;
+}
+
+#cls-32 {
+  fill: #f99595;
+}
+
+#cls-33 {
+  fill: #ffcccc;
+}
+
+#cls-34 {
+  fill: #ffa1be;
+}
+
+#cls-35 {
+  fill: #ff465e;
+}
+
+/* BULLE HEART*/
+
+.cls-1 {
+  fill: #039cf5;
+}
+
+.cls-2 {
+  fill: #95d1f9;
+}
+
+.cls-3 {
+  fill: #c1e6ff;
+}
+
+.cls-4 {
+  fill: #0c63b4;
+}
+.cls-5 {
+  fill: #039cf5;
+}
+
+.cls-6 {
+  fill: #95d1f9;
+}
+
+.cls-7 {
+  fill: #c1e6ff;
+}
+
+.cls-8 {
+  fill: #0c63b4;
+}
+.cls-9 {
+  fill: #039cf5;
+}
+
+.cls-10 {
+  fill: #95d1f9;
+}
+
+.cls-11 {
+  fill: #c1e6ff;
+}
+
+.cls-12 {
+  fill: #0c63b4;
+}
+.cls-13 {
+  fill: #039cf5;
+}
+
+.cls-14 {
+  fill: #95d1f9;
+}
+
+.cls-15 {
+  fill: #c1e6ff;
+}
+
+.cls-16 {
+  fill: #0c63b4;
+}
+.cls-17 {
+  fill: #039cf5;
+}
+
+.cls-18 {
+  fill: #95d1f9;
+}
+
+.cls-19 {
+  fill: #c1e6ff;
+}
+
+.cls-20 {
+  fill: #0c63b4;
+}
+.cls-21 {
+  fill: #039cf5;
+}
+
+.cls-22 {
+  fill: #95d1f9;
+}
+
+.cls-23 {
+  fill: #c1e6ff;
+}
+
+.cls-24 {
+  fill: #0c63b4;
+}
+.cls-25 {
+  fill: #039cf5;
+}
+
+.cls-26 {
+  fill: #95d1f9;
+}
+
+.cls-27 {
+  fill: #c1e6ff;
+}
+
+.cls-28 {
+  fill: #0c63b4;
+}
+.cls-29 {
+  fill: #039cf5;
+}
+
+.cls-30 {
+  fill: #95d1f9;
+}
+
+.cls-31 {
+  fill: #c1e6ff;
+}
+
+.cls-32 {
+  fill: #0c63b4;
+}
+.cls-33 {
+  fill: #039cf5;
+}
+
+.cls-34 {
+  fill: #95d1f9;
+}
+
+.cls-35 {
+  fill: #c1e6ff;
+}
+
+/* BELLE HEART */
+
+#bel-1 {
+  fill: #ff3399;
+}
+
+#bel-2 {
+  fill: #ff66b3;
+}
+
+#bel-3 {
+  fill: #ffb3d9;
+}
+
+.bel-4 {
+  fill: #ff3399;
+}
+
+.bel-5 {
+  fill: #ff3399;
+}
+
+.bel-6 {
+  fill: #ff66b3;
+}
+
+.bel-7 {
+  fill: #ffb3d9;
+}
+
+.bel-8 {
+  fill: #ff3399;
+}
+
+.bel-9 {
+  fill: #ff3399;
+}
+
+.bel-10 {
+  fill: #ff66b3;
+}
+
+.bel-11 {
+  fill: #ffb3d9;
+}
+
+.bel-12 {
+  fill: #ff3399;
+}
+
+.bel-13 {
+  fill: #ff3399;
+}
+
+.bel-14 {
+  fill: #ff66b3;
+}
+
+.bel-15 {
+  fill: #ffb3d9;
+}
+
+.bel-16 {
+  fill: #ff3399;
+}
+
+.bel-17 {
+  fill: #ff3399;
+}
+
+.bel-18 {
+  fill: #ff66b3;
+}
+
+.bel-19 {
+  fill: #ffb3d9;
+}
+
+.bel-20 {
+  fill: #ff3399;
+}
+.bel-21 {
+  fill: #ff3399;
+}
+
+.bel-22 {
+  fill: #ff66b3;
+}
+
+.bel-23 {
+  fill: #ffb3d9;
+}
+
+.bel-24 {
+  fill: #ff3399;
+}
+.bel-25 {
+  fill: #ff3399;
+}
+
+.bel-26 {
+  fill: #ff66b3;
+}
+
+.bel-27 {
+  fill: #ffb3d9;
+}
+
+.bel-28 {
+  fill: #ff3399;
+}
+.bel-29 {
+  fill: #ff3399;
+}
+
+.bel-30 {
+  fill: #ff66b3;
+}
+
+.bel-31 {
+  fill: #ffb3d9;
+}
+
+.bel-32 {
+  fill: #ff3399;
+}
+.bel-33 {
+  fill: #ff3399;
+}
+
+.bel-34 {
+  fill: #ff66b3;
+}
+
+.bel-35 {
+  fill: #ffb3d9;
+}
+
+
+/* REBELLE HEART */
+
+.reb-1 {
+  fill: #00cc00;
+}
+
+.reb-2 {
+  fill: #71ff71;
+}
+
+.reb-3 {
+  fill: #beffa8;
+}
+
+.reb-4 {
+  fill: #00ff40;
+}
+
+.reb-5 {
+  fill: #00cc00;
+}
+
+.reb-6 {
+  fill: #71ff71;
+}
+
+.reb-7 {
+  fill: #beffa8;
+}
+
+.reb-8 {
+  fill: #00ff40;
+}
+.reb-9 {
+  fill: #00cc00;
+}
+
+.reb-10 {
+  fill: #71ff71;
+}
+
+.reb-11 {
+  fill: #beffa8;
+}
+
+.reb-12 {
+  fill: #00ff40;
+}
+.reb-13 {
+  fill: #00cc00;
+}
+
+.reb-14 {
+  fill: #71ff71;
+}
+
+.reb-15 {
+  fill: #beffa8;
+}
+
+.reb-16 {
+  fill: #00ff40;
+}
+.reb-17 {
+  fill: #00cc00;
+}
+
+.reb-18 {
+  fill: #71ff71;
+}
+
+.reb-19 {
+  fill: #beffa8;
+}
+
+.reb-20 {
+  fill: #00ff40;
+}
+.reb-21 {
+  fill: #00cc00;
+}
+
+.reb-22 {
+  fill: #71ff71;
+}
+
+.reb-23 {
+  fill: #beffa8;
+}
+
+.reb-24 {
+  fill: #00ff40;
+}
+.reb-25 {
+  fill: #00cc00;
+}
+
+.reb-26 {
+  fill: #71ff71;
+}
+
+.reb-27 {
+  fill: #beffa8;
+}
+
+.reb-28 {
+  fill: #00ff40;
+}
+.reb-29 {
+  fill: #00cc00;
+}
+
+.reb-30 {
+  fill: #71ff71;
+}
+
+.reb-31 {
+  fill: #beffa8;
+}
+
+.reb-32 {
+  fill: #00ff40;
+}
+.reb-33 {
+  fill: #00cc00;
+}
+
+.reb-34 {
+  fill: #71ff71;
+}
+
+.reb-35 {
+  fill: #beffa8;
+} 

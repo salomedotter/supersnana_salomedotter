@@ -1,0 +1,22 @@
+#Layer_1_heart{
+	visibility: hidden;
+}
+
+#alls_b{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+
+svg * {
+  /* transition: transform 1s; */
+  /* -webkit-transition: transform 1s; */
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+body { 
+   opacity: 1;
+   transition: opacity .5s;
+}
